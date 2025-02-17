@@ -1,0 +1,262 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.nav-bar{
+    background-color: #C39898;
+    margin-top: -0.6%;
+    margin-bottom: -0.7%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: flex;
+    align-items: center;
+}
+.nav-bar a{
+    color: black;
+}
+.nav-item a{
+    color: black;
+}
+#orderbutton{
+    background-color: #987070;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 1353px;
+    margin-top: -0.2%;
+    margin-left: -1.2%;
+    margin-bottom: -0.2%;
+}
+#orderbutton p{
+    width: 30%;
+    margin-top: 1%;
+    color: #CBDCEB;
+}
+#orderbutton button{
+       margin-left: 3%;
+       margin-top: 1%;
+       margin-bottom: 0.7%;
+       border-radius: 40%;
+       font-family: sans-serif;
+}
+#navicons {
+     width: 10%;
+     display: flex;
+     justify-content: space-around;
+}
+.container-2{
+    border: 2px solid;
+}
+#container-3{
+    background-color: #F1E5D1;
+}
+.incredians-1{
+    display: flex;
+    flex-direction: column;
+}
+.buttonopt{
+    border-radius: 15px;
+    width: 80%;
+    background-color: #C39898;
+    color: black;
+    margin-left: 2%;
+    font-family: sans-serif;
+    height: 8%;
+    font-size: x-large;
+}
+#foodheading{
+    width: 80%;
+    margin-top: -1.1%;
+    margin-left: 10%;
+}
+#incredians{
+    margin-left: 3%;
+}
+.container-3{
+    margin-top: .200%;
+    background-color: #F1E5D1;
+}
+.container-4 {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: -0.2%;
+}
+
+.container-4 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+ .container-4 p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.container-3 h2{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 99.5%;
+    background-color: #CBDCEB;
+}
+.allreceipes{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+#receipes{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+#soups{
+    font-size: larger;
+    padding-left: 10%;
+    font-family: sans-serif;
+}
+#sanwitches{
+    font-size: larger;
+    border-bottom: -10%;
+    font-family: sans-serif;
+}
+#salads{
+    font-size: larger;
+    padding-left: 13%;
+    font-family: sans-serif;
+}
+#baked{
+    font-size: larger;
+    padding-left: 13%;
+    font-family: sans-serif;
+}
+#pizza{
+    font-size: larger;
+    padding-left: 12%;
+    font-family: sans-serif;
+}
+#tacos{
+    font-size: larger;
+    padding-left: 14%;
+    font-family: sans-serif;
+}
+.container-4{
+    background-color: #F1E5D1;
+    color: black;
+    margin-top: 0.2%;
+}
+.receipeimg img{
+    border-radius: 50%;
+   
+}
+#c5img{
+    margin-left: 38%;
+}
+.container-5 h5,h2,h6,button{
+    margin-top: 6%;
+    margin-right: 38%;
+    border-right: 20%;
+    font-family: sans-serif;
+}
+.container-5 h2{
+    font-size: xx-large;
+}
+.container-5 h6{
+    width: 59%;
+    margin-left: -1%;
+}
+.container-5 button{
+    width: 28%;
+    height: 14%;
+    margin-top: 1%;
+    border-radius: 40%;
+    border-color: #E2E2B6;
+    background-color: #133E87;
+    color: #CBDCEB;
+    font-size: large;
+}
+.container-5{
+    background-color: #133E87;
+    margin-top: 0.2%;
+    color: #CBDCEB;
+}
+#popularreceipes{
+    width: 100%;
+    font-size: xx-large;
+    font-family: sans-serif;
+    padding-left: 3%;
+    display: flex;
+}
+.container-6{
+    background-color: #608BC1;
+    padding-top: 2%;
+}
+.container-6 img{
+    border-radius: 10%;
+    padding-left: 10%;
+}
+#dishname{
+    font-size: large;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.container-7{
+    background-color: #133E87;
+    margin-top: 0.2%;
+    color: #CBDCEB;
+    display: flex;
+    justify-content: center;   
+}
+.container-7 h5,h1,h6,button{
+    margin-top: 6%;
+    margin-left: 38%;
+    border-left: 20%;
+    font-family: sans-serif;
+}
+.container-7 h1{
+    font-size: xx-large;
+    width: 70%;
+    
+}
+#c7img{
+    margin-left: 18%;
+}
+.container-7 h6{
+    font-size: large;
+    width: 70%;
+}
+.container-7 button{
+    width: 60%;
+    height: 14%;
+    margin-top: 5%;
+    border-radius:30%;
+    border-color: #CBDCEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #133E87;
+    color: #CBDCEB;
+    margin-left: 40%;
+    font-size: x-large;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #C39898;
+    padding-top: 0%;
+}
+.footer-content h6{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-img{
+    display: flex;
+    flex-direction: column;
+}
