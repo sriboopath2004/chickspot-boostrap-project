@@ -4,10 +4,10 @@ body{
     border: 0;
 }
 .nav-bar{
-    background-color: #C39898;
+    background-color: #D0B8A8;
     margin-top: -0.6%;
     margin-bottom: -0.7%;
-    padding-top: 0.5%;
+    padding-top: 1%;
     padding-bottom: 0.5%;
     display: flex;
     align-items: center;
@@ -19,13 +19,13 @@ body{
     color: black;
 }
 #orderbutton{
-    background-color: #987070;
-    color: white;
+    background-color: #DFD3C3;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    width: 1353px;
+    width: 102%;
     margin-top: -0.2%;
     margin-left: -1.2%;
     margin-bottom: -0.2%;
@@ -33,13 +33,13 @@ body{
 #orderbutton p{
     width: 30%;
     margin-top: 1%;
-    color: #CBDCEB;
+    color: black;
 }
 #orderbutton button{
        margin-left: 3%;
        margin-top: 1%;
        margin-bottom: 0.7%;
-       border-radius: 40%;
+       border-radius: 20px;
        font-family: sans-serif;
 }
 #navicons {
@@ -47,11 +47,11 @@ body{
      display: flex;
      justify-content: space-around;
 }
-.container-2{
-    border: 2px solid;
+#container-3 img{
+      border-radius: 15px;
 }
 #container-3{
-    background-color: #F1E5D1;
+    background-color: #F8EDE3;
 }
 .incredians-1{
     display: flex;
@@ -60,8 +60,8 @@ body{
 .buttonopt{
     border-radius: 15px;
     width: 80%;
-    background-color: #C39898;
-    color: black;
+    background-color: #8D493A;
+    color: white;
     margin-left: 2%;
     font-family: sans-serif;
     height: 8%;
@@ -144,14 +144,17 @@ body{
     font-family: sans-serif;
 }
 .container-4{
-    background-color: #F1E5D1;
+    background-color: #DFD3C3;
     color: black;
     margin-top: 0.2%;
 }
 .receipeimg img{
     border-radius: 50%;
-   
-}
+   }
+#receipehead{
+    font-size: x-large;
+    height: 40px;
+   }
 #c5img{
     margin-left: 38%;
 }
@@ -172,14 +175,15 @@ body{
     width: 28%;
     height: 14%;
     margin-top: 1%;
-    border-radius: 40%;
+    border-radius: 50px;
     border-color: #E2E2B6;
-    background-color: #133E87;
-    color: #CBDCEB;
+    background-color: #D0B8A8;
+    color: black;
     font-size: large;
+    margin-right: 42%;
 }
 .container-5{
-    background-color: #133E87;
+    background-color: #8D493A;
     margin-top: 0.2%;
     color: #CBDCEB;
 }
@@ -191,8 +195,9 @@ body{
     display: flex;
 }
 .container-6{
-    background-color: #608BC1;
+    background-color: #DFD3C3;
     padding-top: 2%;
+
 }
 .container-6 img{
     border-radius: 10%;
@@ -206,7 +211,7 @@ body{
     font-family: sans-serif;
 }
 .container-7{
-    background-color: #133E87;
+    background-color: #8D493A;
     margin-top: 0.2%;
     color: #CBDCEB;
     display: flex;
@@ -239,17 +244,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #133E87;
-    color: #CBDCEB;
+    background-color: #D0B8A8;
+    color: black;
     margin-left: 40%;
     font-size: x-large;
+}
+.footers{
+    background-color: #DFD3C3;
 }
 .footer{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    background-color: #C39898;
-    padding-top: 0%;
+    background-color: #DFD3C3;
+    padding-top: 1%;
+    max-width: 250cap
 }
 .footer-content h6{ 
     width: 100%;
