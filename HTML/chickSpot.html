@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>samplebootsrap</title>
+  <title>ChickSpot</title>
   <link rel="stylesheet" href="../CSS/ChickSpot.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,19 +12,24 @@
 
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid nav-bar">
-      <a class="navbar-brand" href="#">ChickSpot</a>
+    <div class="container-fluid nav-bar d-flex justify-content-between align-items-center">
+      
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="../IMAGE/chickspot logo.png" id="logo" alt=" Logo" width="60" height="60" class="d-inline-block align-text-top me-2">
+      </a>
+  
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+  
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link "  href="#">Home</a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="#">Menu</a>
+            <a class="nav-link" href="#">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Deals</a>
@@ -41,7 +46,9 @@
           </li>
         </ul>
       </div>
-      <div id="navicons">
+  
+      <!-- Icons Section -->
+      <div id="navicons" class="d-flex gap-3 align-items-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-person-lines-fill"
           viewBox="0 0 16 16">
           <path
@@ -53,8 +60,10 @@
             d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
         </svg>
       </div>
+      
     </div>
   </nav>
+  
 <div class="container-fluid container-2">
     <div id="orderbutton">
       <p>LET'S ORDER FOR DELIVERY, PICK UP,OR DINE IN</p>
@@ -62,7 +71,7 @@
     </div>
 </div>
 <div class="container-fluid text-center py-4" id="container-3" >
-  <h2 id="foodheading" >Simple Chicken Recipes Made with 10 Ingredients or Less</h2>
+  <h2 id="foodheading">Simple Chicken Recipes Made with 10 Ingredients or Less</h2>
   <div class="row justify-content-center">
     <div class="col-md-4 col-sm-6 col-12 mb-3">
       <img src="../IMAGE/10Incredians.jpg" alt="10 Ingredients" class="img-fluid" width="77%">
@@ -79,7 +88,7 @@
   </div>
 </div>
 <div class="container-fluid text-center py-4 container-4">
-  <p class="fw-bold " id="receipehead">Browse All Recipes</p>
+  <p class="fw-bold" id="receipehead">Browse All Recipes</p>
   <div class="row justify-content-center">
       <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
           <img src="../IMAGE/soups.jpg" alt="Soups" class="img-fluid">
@@ -110,18 +119,15 @@
 
 <div class="container-fluid container-5">
   <div class="row">
-    <!-- Text column with improved centering for small/medium screens -->
-    <div class="col-12 col-lg-6 order-1 order-lg-2 text-center text-lg-center px-4 px-md-5">
+    <div class="col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start px-4 px-md-5 mb-4 mb-lg-0">
       <h5>COOK ONCE, EAT ALL WEEK</h5>
       <h2>44+ Ways To Use Shredded Chicken</h2>
       <h6>We are big fans of shredded rotisserie chicken. Use it for soups, casseroles, tacos, nachos, salads, and so much more!</h6>
-      <button class="btn btn-primary mt-2">Browse Recipes</button>
+      <button class="btn mt-2">Browse Recipes</button>
     </div>
-    
-    <!-- Image column with improved centering -->
-    <div class="col-12 col-lg-6 order-0 order-lg-1 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+    <div class="col-12 col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
       <div class="incredians-1">
-        <img src="../IMAGE/shredded chiken.jpg" alt="10 incredients" id="c5img" class="img-fluid" style="max-width: 300px;">
+        <img src="../IMAGE/shredded chiken.jpg" alt="10 incredients" id="c5img" class="img-fluid">
       </div>
     </div>
   </div>
@@ -130,98 +136,94 @@
 <div class="container-fluid text-center justify-content-center container-6">
   <p id="popularreceipes">Most Popular Receipes</p>
   <div class="row">
-    <div class="col-sm-6 col-md-3">
-      <div class="crockpotbbq img-fluid">
-        <img src="../IMAGE/crockpot bbq chicken.jpg" alt="crockpotbbq" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="crockpotbbq">
+        <img src="../IMAGE/crockpot bbq chicken.jpg" alt="crockpotbbq" class="img-fluid">
         <p id="dishname">Crock pot BBQ</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="bakedchicken img-fluid">
-        <img src="../IMAGE/baked chicken breast receipe.jpg" alt="bakedchicken" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="bakedchicken">
+        <img src="../IMAGE/baked chicken breast receipe.jpg" alt="bakedchicken" class="img-fluid">
         <p id="dishname">Baked chicken</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="chickenflrentine img-fluid">
-        <img src="../IMAGE/chicken flrentine recipe.jpg" alt="chickenflrentine" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="chickenflrentine">
+        <img src="../IMAGE/chicken flrentine recipe.jpg" alt="chickenflrentine" class="img-fluid">
         <p id="dishname">Chicken Flrentine</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="chikenmarsala img-fluid">
-        <img src="../IMAGE/chicken marsala.jpg" alt="chikenmarsala" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="chikenmarsala">
+        <img src="../IMAGE/chicken marsala.jpg" alt="chikenmarsala" class="img-fluid">
         <p id="dishname">Chicken Marsala</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="chickenburrito img-fluid">
-        <img src="../IMAGE/chicken burrito bowls.jpg" alt="chickenburrito" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="chickenburrito">
+        <img src="../IMAGE/chicken burrito bowls.jpg" alt="chickenburrito" class="img-fluid">
         <p id="dishname">Chicken Burrito Bowls</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="creamygarlic img-fluid">
-        <img src="../IMAGE/creamy garlic chicken.jpg" alt="creamygarlic" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="creamygarlic">
+        <img src="../IMAGE/creamy garlic chicken.jpg" alt="creamygarlic" class="img-fluid">
         <p id="dishname">Creamy Garlic Chicken</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="crockpotchickenbreast img-fluid">
-        <img src="../IMAGE/crock pot chicken breast.jpg" alt="crockpotchickenbreast" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="crockpotchickenbreast">
+        <img src="../IMAGE/crock pot chicken breast.jpg" alt="crockpotchickenbreast" class="img-fluid">
         <p id="dishname">Crockpot Chicken Breast</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="crockpotitalian img-fluid">
-        <img src="../IMAGE/crockpot italian chicken receipe.jpg" alt="crockpotitalian" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="crockpotitalian">
+        <img src="../IMAGE/crockpot italian chicken receipe.jpg" alt="crockpotitalian" class="img-fluid">
         <p id="dishname">Crockpot Italian Chicken</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="grilledbbqchicken img-fluid">
-        <img src="../IMAGE/grilled bbq chikcne.jpg" alt="grilledbbqchicken" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="grilledbbqchicken">
+        <img src="../IMAGE/grilled bbq chikcne.jpg" alt="grilledbbqchicken" class="img-fluid">
         <p id="dishname">Grilled BBq Chicken</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="grilledchickenbreast img-fluid">
-        <img src="../IMAGE/Grilled chicken breast recipe.jpg" alt="grilledchickenbreast" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="grilledchickenbreast">
+        <img src="../IMAGE/Grilled chicken breast recipe.jpg" alt="grilledchickenbreast" class="img-fluid">
         <p id="dishname">Grilled Chicken Breast</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="hawaiian chicken img-fluid">
-        <img src="../IMAGE/hawaiian chicken skillet.jpg" alt="hawaiian chicken" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="hawaiian-chicken">
+        <img src="../IMAGE/hawaiian chicken skillet.jpg" alt="hawaiian chicken" class="img-fluid">
         <p id="dishname">Hawaiian Chicken</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="shreddedchickenenchiladas img-fluid">
-        <img src="../IMAGE/shredded chicken enchiladas.jpg" alt="shreddedchickenenchiladas" height="290" width="275">
+    <div class="col-sm-6 col-md-3 mb-4">
+      <div class="shreddedchickenenchiladas">
+        <img src="../IMAGE/shredded chicken enchiladas.jpg" alt="shreddedchickenenchiladas" class="img-fluid">
         <p id="dishname">Shredded Chicken Enchiladas</p>
       </div>
     </div>
   </div>
- </div>
 </div>
 
 <div class="container-fluid container-7">
   <div class="row">
-    <!-- Text content - appears below on small/medium screens -->
-    <div class="col-12 col-lg-6 order-1 order-lg-1 text-md-start text-lg-start px-4 px-md-5 mb-4 mb-lg-0">
+    <div class="col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start px-4 px-md-5 mb-4 mb-lg-0">
       <h5>SAVE THE DISHES</h5>
       <h1>One Pot Dinners</h1>
       <h6>
         Looking for a quick dinner fix? These family friendly meals are made in just one pan or pot for simple prep and minimal cleanup. Easy peasy!
       </h6>
-      <button class="btn btn-primary mt-2">Browse All One Pot Recipes</button>
+      <button class="btn mt-2">Browse All One Pot Recipes</button>
     </div>
-    
-    <!-- Image - appears on top for small/medium screens -->
-    <div class="col-12 col-lg-6 order-2 order-lg-2 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+    <div class="col-12 col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
       <div class="incredians-1">
-        <img src="../IMAGE/one pt.jpg" alt="onepotimg" id="c7img" class="img-fluid" style="max-width: 300px;">
+        <img src="../IMAGE/one pt.jpg" alt="onepotimg" id="c7img" class="img-fluid">
       </div>
     </div>
   </div>
@@ -233,8 +235,6 @@
       <div class="col-md-4 col-12 mb-3 text-md-start text-center">
         <h6>COMPANY</h6>
         <p>Privacy Policy | Terms & Conditions | Help & Support</p>
-        <p></p>
-        <p></p>
       </div>
       <div class="col-md-4 col-12 mb-3 text-center">
         <h6>STAY CONNECTED</h6>
@@ -249,16 +249,8 @@
   </div>
 </div>
 
-
-
-
-
-
-   
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
